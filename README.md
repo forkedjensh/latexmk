@@ -22,7 +22,7 @@ Hint: The `sudo` command can be dismissed if the current user belongs to the
 
 Run
 
-    $ sudo docker run -v $(pwd):/data/ --name doc_latexmk forkedjensh/ubuntu-latexmk
+    $ sudo docker run -v $(pwd):/data/ --name doc_latexmk forkedjensh/latexmk
 
 with any latexmk parameters as needed. These will be appended to the latexmk
 command in the container. The `$(pwd)` directory in the volume parameter is the
